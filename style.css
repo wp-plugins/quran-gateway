@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'KFGQPC Uthman Taha Naskh';
+    src: url(fonts/UthmanTN1_Ver10/UthmanTN1_Ver10.otf);
+    font-weight: bold;
+}
+
+.quran_gateway_widget { margin:0; padding:0; }
+.quran_gateway_widget div.aya_ar { padding:0 0 10px 0; margin:0 0 15px 0; font-family: 'KFGQPC Uthman Taha Naskh', Arial, Tahoma; font-size:25px; line-height:38px; direction:rtl; text-align:right; border-bottom:1px dotted #cccccc; }
+.quran_gateway_widget div.aya_en { direction:ltr; text-align:left; margin:10px 0 0 0; font-size:16px; }
+.quran_gateway_widget span.sora_name { font-size:14px; color:green; }
+
+.quran_gateway { margin:10px; padding:10px; background-color:#f2f2f2; border:1px solid #cccccc; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.aya_ar { font-family: 'KFGQPC Uthman Taha Naskh', Arial, Tahoma; font-size:28px; line-height:38px; direction:rtl; text-align:right; padding:0; margin:7px 0 15px 0; }
+.aya_en { direction:ltr; text-align:left; margin:10px 0 0 0; font-size:16px; line-height:25px; }
+.sora_name { font-family: 'KFGQPC Uthman Taha Naskh', Arial, Tahoma; font-size:17px; color:green; }
+
+.quran_gateway_by_sora { margin:0 0 10px 0; padding:10px; background-color:#f2f2f2; border-bottom:1px dotted #cccccc; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.aya_ar_by_sora { font-family: 'KFGQPC Uthman Taha Naskh', Arial, Tahoma; font-size:28px; line-height:38px; direction:rtl; text-align:right; padding:0; margin:0 0 15px 0; }
+.aya_en_by_sora { direction:ltr; text-align:left; margin:10px 0 0 0; font-size:16px; line-height:25px; }
+.sora_name_by_sora { font-family: 'KFGQPC Uthman Taha Naskh', Arial, Tahoma; font-size:17px; color:green; }
+
+.sora_title { color:#2196F3; font-family: 'KFGQPC Uthman Taha Naskh', Arial, Tahoma; }
+.sora_short_code { margin::0 0 15px 0; }
+.sora_short_code code { color:#B71C1C; }
+
+#quran_player { text-align:center; }
+#quran_player_by_sora { text-align:center; margin-bottom:10px; }
+#quran_sound { text-align:center; }
+
+.quran_gateway_sora_list { padding: 0px; margin: 0px; }
+.quran_gateway_sora_list ul { list-style-type: none; padding: 0px; margin: 0px; }
+.quran_gateway_sora_list ul li { float:left; width:46%; padding:5px; margin:0 0 10px 10px; border-bottom:1px dotted #cccccc; }
+/* rules for iPad in landscape orientation */
+@media only screen and (device-width: 768px) and (orientation: landscape) {
+.quran_gateway_sora_list ul li { display:block; width:100%; padding:0 0 10px 0; margin:0 0 10px 0; }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.quran_gateway_sora_list ul li { display:block; width:100%; padding:0 0 10px 0; margin:0 0 10px 0; }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+.quran_gateway_sora_list ul li { display:block; width:100%; padding:0 0 10px 0; margin:0 0 10px 0; }
+}
+
+@media only screen and (min-width: 240px) and (max-width: 320px) {
+.quran_gateway_sora_list ul li { display:block; width:100%; padding:0 0 10px 0; margin:0 0 10px 0; }
+}
+
+@media only screen and (max-width: 240px) {
+.quran_gateway_sora_list ul li { display:block; width:100%; padding:0 0 10px 0; margin:0 0 10px 0; }
+
